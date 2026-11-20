@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PraRoz</title>
+
+  <!--Tailwind CSS CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <!--Font Awesome Icons CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body class="min-h-screen bg-cover bg-center bg-no-repeat text-white font-sans"
+      style="background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('tree.jpg');">
+    
+      <!--Navbar-->
+  <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-5">
+
+    <!--Logo-->
+    <a href="#" class="flex items-center gap-1 text-3xl font-bold text-orange-500">
+      PraRoz
+      <i class="fa-solid fa-earth-americas text-xl text-gray-300"></i>
+    </a>
+
+    <!--Navigation Links with Hover Effects-->
+    <ul class="flex flex-wrap items-center gap-6 text-sm font-bold tracking-wider md:gap-10">
+      <li><a href="#" class="transition duration-300 hover:text-orange-500">HOME</a></li>
+      <li><a href="#" class="transition duration-300 hover:text-orange-500">ABOUT</a></li>
+      <li><a href="#" class="transition duration-300 hover:text-orange-500">SERVICE</a></li>
+      <li><a href="#" class="transition duration-300 hover:text-orange-500">DESIGN</a></li>
+      <li><a href="#" class="transition duration-300 hover:text-orange-500">CONTACT</a></li>
+    </ul>
+
+    <!--Search Bar-->
+    <div class="flex items-center">
+      <input
+        type="text"
+        placeholder="Type to Search"
+        class="w-44 rounded-l-md border border-orange-500 bg-transparent px-3 py-1.5 text-sm text-white placeholder-gray-300 focus:outline-none sm:w-52"
+      />
+      <button
+        type="button"
+        class="cursor-pointer rounded-r-md border border-orange-500 bg-orange-500 px-4 py-1.5 text-sm font-semibold text-white transition duration-300 hover:bg-orange-600">
+        Search
+      </button>
+    </div>
+
+  </nav>
+
+      
+</body>
+</html>
